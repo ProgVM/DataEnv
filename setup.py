@@ -6,7 +6,7 @@ setup(
     author='ProgVM',
     author_email='progvminc@gmail.com',
     description='The package for doing many sorts of operations with data.',
-    long_description=open('README.md').read(),  # Замените на путь к вашему README, если он существует
+    long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/ProgVM/DataEnv/',
     packages=find_packages(),
