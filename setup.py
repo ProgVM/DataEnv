@@ -1,17 +1,20 @@
-# setup.py
-
 from setuptools import setup, find_packages
 
 setup(
-    name='dataenv',
+    name='DataEnv',
     version='0.1',
-    packages=find_packages(),
+    author='ProgVM',
+    author_email='progvminc@gmail.com',
     description='The package for doing many sorts of operations with data.',
-    author='https://github.com/ProgVM/DataEnv/',
-    author_email='progvminc@example.com',
-    ',
+    long_description=open('README.md').read(),  # Замените на путь к вашему README, если он существует
+    long_description_content_type='text/markdown',
+    url='https://github.com/ProgVM/DataEnv/',
+    packages=find_packages(),
+    license='Apache License 2.0',
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: Apache Software License',
+        'Operating System :: OS Independent',
     ],
+    python_requires='>=3.6',  # Укажите минимальную версию Python, если необходимо
 )
